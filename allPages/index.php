@@ -19,6 +19,7 @@
 		<? require ("./../blocks/header/header.php") ?>
 		<? require ("./../blocks/top-block/top-block.php") ?>
 		<? require ("./../blocks/enticement/enticement.php") ?>
+		<? require ("./../blocks/our-services/our-services.php") ?>
 	</div>	
 </body>
 
