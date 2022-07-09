@@ -35,7 +35,7 @@
 	</div>
 	<div class="top-block__container-img-n-text">
 		<div class="top-block__img-block">
-			<img class="top-block__img-a" src="./../../img/block.jpg" alt="">
+			<img class="top-block__img-a" src="./../../img/block.jpg" alt="Dev photo">
 		</div>
 		<div class="top-block__about">
 			<h4 class="top-block__about-head-text">About our work</h4>

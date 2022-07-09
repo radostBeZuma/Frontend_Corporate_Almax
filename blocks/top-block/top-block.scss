@@ -52,6 +52,12 @@
 	background-color: $palette-black-primary;
 	transition: background 0.3s;
 	border: 1px solid $palette-black-primary;
+
+	@media (max-width: $medium) {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 .top-block__perf-btn:hover {

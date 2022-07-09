@@ -20,6 +20,7 @@
 		<? require ("./../blocks/top-block/top-block.php") ?>
 		<? require ("./../blocks/enticement/enticement.php") ?>
 		<? require ("./../blocks/our-services/our-services.php") ?>
+		<? require ("./../blocks/our-values/our-values.php") ?>
 	</div>	
 </body>
 

@@ -580,6 +580,119 @@ button {
   background-color: tomato;
   color: silver;
 }
+/*!****************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./blocks/our-values/our-values.scss ***!
+  \****************************************************************************************************************************/
+.our-values {
+  margin-top: 300px;
+}
+@media (max-width: 1600px) {
+  .our-values {
+    margin-top: 160px;
+  }
+}
+
+.our-values__container-title {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 1020px) {
+  .our-values__container-title {
+    justify-content: start;
+  }
+}
+
+.our-value__title {
+  flex-basis: 50%;
+}
+@media (max-width: 1020px) {
+  .our-value__title {
+    flex-basis: auto;
+  }
+}
+
+.our-values__container-content {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1280px) {
+  .our-values__container-content {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1020px) {
+  .our-values__container-content {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .our-values__container-content {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+}
+
+.our-values__desc {
+  margin-right: 120px;
+  flex-shrink: 0;
+}
+@media (max-width: 1280px) {
+  .our-values__desc {
+    flex-basis: 50%;
+    margin-right: 0;
+    flex-shrink: 1;
+  }
+}
+@media (max-width: 768px) {
+  .our-values__desc br {
+    display: none;
+  }
+}
+
+.our-values__card {
+  flex-basis: 25%;
+  margin-right: 16px;
+}
+.our-values__card:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 16px 24px -24px rgba(0, 0, 0, 0.7), 0px 24px 48px -24px rgba(0, 0, 0, 0.4);
+}
+@media (max-width: 1280px) {
+  .our-values__card {
+    flex-basis: 50%;
+    margin-top: 25px;
+    margin-right: 0;
+  }
+}
+
+.our-values__card-inner {
+  padding: 60px;
+}
+@media (max-width: 1600px) {
+  .our-values__card-inner {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .our-values__card-inner {
+    padding: 50px 35px;
+  }
+}
+
+.our-values__card-title {
+  margin-top: 55px;
+}
+
+.our-values__card-desc {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
 /*!**************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./blocks/top-block/top-block.scss ***!
   \**************************************************************************************************************************/
@@ -639,6 +752,13 @@ button {
   background-color: #111111;
   transition: background 0.3s;
   border: 1px solid #111111;
+}
+@media (max-width: 768px) {
+  .top-block__perf-btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .top-block__perf-btn:hover {
