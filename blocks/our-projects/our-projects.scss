@@ -1,0 +1,159 @@
+@import './../../styles/variable.scss';
+
+.our-projects {
+	margin-top: 300px;
+
+	@media (max-width: $large-x) {
+		margin-top: 160px;
+	}
+}
+
+.our-projects__container-title {
+	display: flex;
+	justify-content: flex-end;
+
+	@media (max-width: $lg) {
+		justify-content: start;
+	}
+}
+
+.our-projects__title {
+	flex-basis: 49.5%;
+
+	@media (max-width: $lg) {
+		flex-basis: auto;
+	}
+}
+
+.our-projects__container-all-projects-n-link {
+	margin-top: 15px;
+
+	@media (max-width: $lg) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.our-projects__link-see-all {
+	@media (max-width: $medium) {
+		margin-top: 45px;
+	}
+}
+
+.our-projects__box-link {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	@media (max-width: $medium) {
+		justify-content: center;
+	}
+}
+
+.our-projects__link-text {
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 42px;
+	margin-right: 15px;
+}
+
+.our-projects__container-content {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+
+	@media (max-width: $large) {
+		flex-direction: column;
+	}
+
+	@media (max-width: $lg) {
+		margin-top: 0;
+	}
+
+	@media (max-width: $medium) {
+		order: -1;
+	}
+}
+
+.our-projects__container-layout-proj {
+	flex-basis: 49.5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	@media (max-width: $large) {
+		flex-basis: auto;
+	}
+
+	&>.our-projects__box-proj:not(:first-child) {
+		@media (max-width: $medium) {
+			display: none;
+		}
+	}
+}
+
+.our-projects__box-proj {
+	@media (max-width: $large) {
+		margin-top: 45px;
+	}
+}
+
+.our-projects__box-proj-two {
+	display: flex;
+	justify-content: space-between;
+
+	.our-projects__card-proj {
+		flex-basis: 49%;
+
+		&:first-child {
+			@media (max-width: $medium) {
+				margin-bottom: 45px;
+			}
+		}
+	}
+
+	@media (max-width: $medium) {
+		flex-direction: column;
+	}
+}
+
+.our-projects__box-card {
+
+	&:hover {
+		& .our-projects__work-pic {
+			filter: none;
+		}
+
+		& .our-projects__work-title {
+			color: $palette-blue-primary;
+		}
+
+	}
+}
+
+.our-projects__box-proj-two-mt {
+	margin-top: 150px;
+
+	@media (max-width: $large) {
+		margin-top: 45px;
+	}
+}
+
+.our-projects__work-pic {
+	width: 100%;
+	height: auto;
+	filter: grayscale(100%);
+}
+
+.our-projects__work-title {
+	margin-top: 18px;
+	transition: color 0.3s;
+}
+
+.our-projects__work-desc {
+	margin-top: 18px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: $palette-gray-primary;
+}

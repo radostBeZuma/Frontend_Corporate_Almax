@@ -21,6 +21,7 @@
 		<? require ("./../blocks/enticement/enticement.php") ?>
 		<? require ("./../blocks/our-services/our-services.php") ?>
 		<? require ("./../blocks/our-values/our-values.php") ?>
+		<? require ("./../blocks/our-projects/our-projects.php") ?>
 	</div>	
 </body>
 
