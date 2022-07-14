@@ -276,6 +276,59 @@ li {
     flex-basis: auto;
   }
 }
+/*!********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./blocks/footer/footer.scss ***!
+  \********************************************************************************************************************/
+.footer {
+  margin-top: 300px;
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1600px) {
+  .footer {
+    margin-top: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: start;
+    padding: 40px;
+  }
+}
+.footer__copyright {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.footer__copyright--bold {
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+.footer__container-social {
+  display: flex;
+}
+.footer__link-social svg path {
+  transition: fill 0.3s;
+}
+.footer__link-social:not(:last-child) {
+  margin-right: 25px;
+}
+.footer__link-social:hover svg path {
+  fill: #2F80ED;
+}
+.footer__box-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*!********************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./blocks/get-in-touch/get-in-touch.scss ***!
   \********************************************************************************************************************************/
