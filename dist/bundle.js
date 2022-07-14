@@ -15,7 +15,7 @@
   \***************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var map = {\n\t\"./enticement/enticement.scss\": \"./blocks/enticement/enticement.scss\",\n\t\"./header/header.scss\": \"./blocks/header/header.scss\",\n\t\"./our-projects/our-projects.scss\": \"./blocks/our-projects/our-projects.scss\",\n\t\"./our-services/our-services.scss\": \"./blocks/our-services/our-services.scss\",\n\t\"./our-values/our-values.scss\": \"./blocks/our-values/our-values.scss\",\n\t\"./top-block/top-block.scss\": \"./blocks/top-block/top-block.scss\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./blocks sync recursive ^\\\\.\\\\/[^/]+\\\\/[^/.]+\\\\.(js%7Ccss%7Cscss%7Csass%7Cless)$\";\n\n//# sourceURL=webpack://webpack-1.v/./blocks/_sync_^\\.\\/%5B^/%5D+\\/%5B^/.%5D+\\.(js%257Ccss%257Cscss%257Csass%257Cless)$?");
+eval("var map = {\n\t\"./enticement/enticement.scss\": \"./blocks/enticement/enticement.scss\",\n\t\"./get-in-touch/get-in-touch.scss\": \"./blocks/get-in-touch/get-in-touch.scss\",\n\t\"./header/header.scss\": \"./blocks/header/header.scss\",\n\t\"./our-projects/our-projects.scss\": \"./blocks/our-projects/our-projects.scss\",\n\t\"./our-services/our-services.scss\": \"./blocks/our-services/our-services.scss\",\n\t\"./our-values/our-values.scss\": \"./blocks/our-values/our-values.scss\",\n\t\"./top-block/top-block.scss\": \"./blocks/top-block/top-block.scss\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./blocks sync recursive ^\\\\.\\\\/[^/]+\\\\/[^/.]+\\\\.(js%7Ccss%7Cscss%7Csass%7Cless)$\";\n\n//# sourceURL=webpack://webpack-1.v/./blocks/_sync_^\\.\\/%5B^/%5D+\\/%5B^/.%5D+\\.(js%257Ccss%257Cscss%257Csass%257Cless)$?");
 
 /***/ }),
 
@@ -38,6 +38,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-1.v/./blocks/enticement/enticement.scss?");
+
+/***/ }),
+
+/***/ "./blocks/get-in-touch/get-in-touch.scss":
+/*!***********************************************!*\
+  !*** ./blocks/get-in-touch/get-in-touch.scss ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-1.v/./blocks/get-in-touch/get-in-touch.scss?");
 
 /***/ }),
 
