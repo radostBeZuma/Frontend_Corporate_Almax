@@ -77,15 +77,3 @@
 		</div>
 	</div>
 </section>
-<!-- <hr>
-<section class="wrappera mt45">
-	<div class="fif">1</div>
-	<div class="fif">2</div>
-	<div class="sto">3</div>
-</section>
-
-<section class="wrapperb mt45">
-	<div class="pe">1</div>
-	<div class="pe">2</div>
-	<div class="spe">3</div>
-</section> -->
