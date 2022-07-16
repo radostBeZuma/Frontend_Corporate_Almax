@@ -21,6 +21,7 @@
 		<? require ("./../blocks/enticement/enticement.php") ?>
 		<? require ("./../blocks/our-services/our-services.php") ?>
 		<? require ("./../blocks/our-values/our-values.php") ?>
+		<? require ("./../blocks/our-team/our-team.php") ?>
 		<? require ("./../blocks/our-projects/our-projects.php") ?>
 		<? require ("./../blocks/get-in-touch/get-in-touch.php") ?>
 		<? require ("./../blocks/footer/footer.php") ?>
