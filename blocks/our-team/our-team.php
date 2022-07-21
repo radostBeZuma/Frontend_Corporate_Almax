@@ -100,7 +100,7 @@
 						</div>
 						<div class="our-team__slider-slide swiper-slide">
 							<div class="our-team__img-wrap">
-								<img class="our-team__img-person" src="./../../img/elena-large.jpg" alt="" >
+								<img class="our-team__img-person" src="./../../img/sasha-b-large.jpg" alt="" >
 							</div>
 							<div class="our-team__person-info">
 								<p class="our-team__person-name">Alex K.</p>
@@ -143,15 +143,15 @@
 					<div class="our-team__slider-min-wrap swiper-wrapper">
 					
 						<div class="our-team__slider-min-slide swiper-slide">
-							<p>f</p>
+							<p>Alex K.</p>
 							<img class="our-team__person-img-min" src="./../../img/alex-k-min.jpg" alt="">
 						</div>
 						<div class="our-team__slider-min-slide swiper-slide">
-							<p>b</p>
-							<img class="our-team__person-img-min" src="./../../img/elena-large.jpg" alt="" width="141px" height="141px">
+							<p>Sasha B.</p>
+							<img class="our-team__person-img-min" src="./../../img/sasha-b-large.jpg" alt="">
 						</div>
 						<div class="our-team__slider-min-slide swiper-slide">
-							<p>a</p>
+							<p>Max K.</p>
 							<img class="our-team__person-img-min" src="./../../img/max-d-min.jpg" alt="">
 						</div>
 						
