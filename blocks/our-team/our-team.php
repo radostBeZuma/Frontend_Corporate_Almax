@@ -107,7 +107,16 @@
 				</button>
 			</div>
 			<div class="divochek">
-				
+				<div class="our-team__box-slider-min swiper">
+					<div class="our-team__slider-min-wrap swiper-wrapper">
+						<div class="our-team__slider-min-slide swiper-slide">
+							<img class="our-team__person-img-min" src="./../../img/alex-k-min.jpg" alt="">
+						</div>
+						<div class="our-team__slider-min-slide swiper-slide">
+							<img class="our-team__person-img-min" src="./../../img/max-d-min.jpg" alt="">
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
