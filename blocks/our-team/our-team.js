@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	});
 
+	ad.on('click', function (e) {
+		if (e.isEnd === true) {
+			swiper.slideTo(0);
+		} else {
+			swiper.slideNext();
+		}
+	});
+
+
+
 	const swiper = new Swiper('.our-team__box-slider', {
 		speed: 1000,
 		navigation: {
