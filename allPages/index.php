@@ -25,7 +25,7 @@
 		<? require ("./../blocks/our-projects/our-projects.php") ?>
 		<? require ("./../blocks/get-in-touch/get-in-touch.php") ?>
 		<? require ("./../blocks/footer/footer.php") ?>
-	</div>	
+	</div>
 </body>
 
 </html>
