@@ -1556,9 +1556,7 @@ li {
 }
 .our-team__box-all-sliders {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -1741,6 +1739,79 @@ li {
 }
 .our-team__box-social:not(:last-child) {
   margin-right: 15px;
+}
+.our-team__box-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.our-team__box-card {
+  flex: 0 1 25%;
+  transition: flex 0.6s;
+}
+.our-team__box-card._active {
+  flex: 0 1 40%;
+}
+.our-team__box-card._active .our-team__box-card-person-img {
+  width: 200px;
+  height: 200px;
+}
+.our-team__box-card._active .our-team__el-card-btn {
+  display: none;
+}
+.our-team__box-card._active .our-team__el-card-all-text {
+  opacity: 1;
+  overflow: visible;
+  transition: opacity 0.6s 0.6s;
+}
+.our-team__el-card-inner {
+  max-height: 250px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.our-team__el-img-n-arrow {
+  display: flex;
+  align-items: center;
+}
+.our-team__box-card-person-img {
+  width: 85px;
+  height: 85px;
+  margin-right: 10px;
+  transition: width 0.6s, height 0.6s;
+}
+.our-team__el-card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.our-team__el-card-btn {
+  width: 25px;
+  height: 25px;
+}
+.our-team__el-person-name {
+  margin-top: 25px;
+  font-weight: 700;
+}
+.our-team__el-card-all-text {
+  overflow: hidden;
+  opacity: 0;
+}
+.our-team__el-card-desc {
+  margin-top: 15px;
+}
+.our-team__el-card-desc p:not(:last-child) {
+  margin-bottom: 15px;
+}
+.our-team__el-card-person-position {
+  margin-top: 15px;
+  color: #828282;
+}
+.our-team__el-card-person-social {
+  display: flex;
+  margin-top: 25px;
 }
 /*!****************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./blocks/our-values/our-values.scss ***!
