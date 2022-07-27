@@ -140,20 +140,40 @@ document.addEventListener("DOMContentLoaded", () => {
 		}, duration);
 	}
 
-	// // первоначальное значение сервиса
-	// const nameService = document.querySelector(`.${block}__name-services`);
-	// nameService.innerHTML = document.querySelector(`.${block}__menu-btn._active`).querySelector(`.${block}__menu-btn-text`).innerHTML;
-
 	// slide end
 
 	// =====> switch hidden and active
 
+	let checkAnimate = true;
 
-	/* 1) Написать основные функции:
-		поставить обработчики постоянные 
-	*/
+	function hand(e) {
+		let btn = e.currentTarget;
+		btn.classList.toggle('_active');
+
+		if (checkAnimate) {
+			slideDown(document.querySelector(`.${block}__box-menu`));
+			checkAnimate = false;
+		} else {
+			slideUp(document.querySelector(`.${block}__box-menu`));
+			checkAnimate = true;
+		}
+	}
 
 	const switchRegular = () => {
+
+		const menu = document.querySelector(`.${block}__menu`);
+
+		if (window.innerWidth <= 1020) {
+
+			menu.addEventListener('click', hand);
+
+		} else {
+
+			menu.removeEventListener('click', hand);
+			document.querySelector(`.${block}__box-menu`).style.removeProperty("display");
+		}
+
+		// default
 
 		const menuBtns = document.querySelectorAll(`.${block}__menu-btn`);
 		const allTeams = document.querySelectorAll(`.${block}__box-team`);
@@ -193,33 +213,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	let checkAnimate = true;
-
-	function hand(e) {
-		let btn = e.currentTarget;
-		btn.classList.toggle('_active');
-
-		if (checkAnimate === true) {
-			slideDown(document.querySelector(`.${block}__box-menu`));
-			checkAnimate = false;
-		} else {
-			slideUp(document.querySelector(`.${block}__box-menu`));
-			checkAnimate = true;
-		}
-	}
-
-	function swithUniq() {
-
-		const menu = document.querySelector(`.${block}__menu`);
-
-		if (window.innerWidth >= 1020) {
-			menu.removeEventListener('click', hand);
-			console.log('delete');
-		} else {
-			menu.addEventListener('click', hand);
-		}
-	}
-
 	switchRegular();
 
 	let flag = false;
@@ -231,25 +224,14 @@ document.addEventListener("DOMContentLoaded", () => {
 			setTimeout(() => {
 
 				flag = false;
+				switchRegular();
 
-				if (window.innerWidth <= 1020) {
-					console.log('men 1020');
-					swithUniq();
-					switchRegular();
-				} else {
-					document.querySelector(`.${block}__box-menu`).style.removeProperty("display");
-					swithUniq();
-					switchRegular();
-				}
-
-			}, 250);
+			}, 500);
 		}
 
 	});
 
-
 	// switch hidden and active end
-
 
 });
 
