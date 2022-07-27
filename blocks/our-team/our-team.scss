@@ -47,6 +47,29 @@
 		@media (max-width: $lg) {
 			margin-right: 0;
 			position: relative;
+
+			.our-team__wrap-arrow-svg {
+				-webkit-transition: -webkit-transform 0.3s;
+				transition: -webkit-transform 0.3s;
+				-o-transition: transform 0.3s;
+				transition: transform 0.3s;
+				transition: transform 0.3s, -webkit-transform 0.3s;
+			}
+
+
+			&._active {
+
+				& .our-team__wrap-arrow-svg {
+					-webkit-transform: rotate(90deg);
+					-ms-transform: rotate(90deg);
+					transform: rotate(90deg);
+				}
+
+				& .our-team__box-menu {
+					display: block;
+				}
+
+			}
 		}
 	}
 
@@ -64,26 +87,6 @@
 			-webkit-box-align: center;
 			-ms-flex-align: center;
 			align-items: center;
-
-			svg {
-				-webkit-transition: -webkit-transform 0.3s;
-				transition: -webkit-transform 0.3s;
-				-o-transition: transform 0.3s;
-				transition: transform 0.3s;
-				transition: transform 0.3s, -webkit-transform 0.3s;
-			}
-
-			&.active {
-				svg {
-					-webkit-transform: rotate(90deg);
-					-ms-transform: rotate(90deg);
-					transform: rotate(90deg);
-				}
-
-				&~&__box-menu {
-					display: block;
-				}
-			}
 		}
 	}
 
@@ -127,9 +130,9 @@
 			background-color: $palette-white-primary;
 
 
-			&[data-state="active"] {
-				display: block;
-			}
+			// &[data-state="active"] {
+			// 	display: block;
+			// }
 		}
 	}
 
@@ -223,12 +226,19 @@
 		}
 	}
 
+	&__box-team {
+		display: none;
+
+		&._active {
+			display: block;
+		}
+	}
+
 	&__box-all-sliders {
 		width: 100%;
-		display: none;
-		// display: -webkit-box;
-		// display: -ms-flexbox;
-		// display: flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 
@@ -434,15 +444,25 @@
 	&__box-cards {
 		display: flex;
 		justify-content: space-between;
-		// max-height: 515px;
+		flex-wrap: wrap;
 	}
 
 	&__box-card {
 		flex: 0 1 25%;
-		transition: flex 0.6s;
+
+		// transition: flex 0.6s;
+
+		@media screen and (max-width: $lg) {
+			flex: 0 1 50%;
+		}
 
 		&._active {
 			flex: 0 1 40%;
+
+			@media screen and (max-width: $lg) {
+				flex: 0 1 100%;
+				order: -1;
+			}
 
 			.our-team__box-card-person-img {
 				width: 200px;
@@ -504,7 +524,6 @@
 		// display: none;
 		overflow: hidden;
 		opacity: 0;
-
 	}
 
 	&__el-card-desc {
@@ -513,6 +532,12 @@
 		p:not(:last-child) {
 			margin-bottom: 15px;
 		}
+
+		// @media screen and (max-width: $lg) {
+		// 	p:not(:first-child) {
+		// 		display: none;
+		// 	}
+		// }
 	}
 
 	&__el-card-person-position {
