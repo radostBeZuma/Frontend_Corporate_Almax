@@ -60,14 +60,8 @@
 		display: none;
 
 		@media (max-width: $lg) {
-			display: -webkit-box;
-			display: -ms-flexbox;
 			display: flex;
-			-webkit-box-pack: justify;
-			-ms-flex-pack: justify;
 			justify-content: space-between;
-			-webkit-box-align: center;
-			-ms-flex-align: center;
 			align-items: center;
 		}
 	}
@@ -81,26 +75,16 @@
 	}
 
 	&__wrap-arrow-svg {
-		-webkit-transform: rotate(0deg);
-		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
 	}
 
 	&__box-menu {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
-		-webkit-box-align: start;
-		-ms-flex-align: start;
 		align-items: flex-start;
 
 		@media (max-width: $lg) {
 			display: none;
-			-webkit-box-sizing: border-box;
 			box-sizing: border-box;
 			padding: 15px;
 			position: absolute;
@@ -110,11 +94,6 @@
 			z-index: 100;
 			border: 1px solid $palette-gray-primary;
 			background-color: $palette-white-primary;
-
-
-			// &[data-state="active"] {
-			// 	display: block;
-			// }
 		}
 	}
 
@@ -123,18 +102,10 @@
 		font-weight: 500;
 		font-size: 12px;
 		line-height: 28px;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
 		justify-content: space-between;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
 		align-items: center;
 		padding-right: 15px;
-		-webkit-transition: padding 0.3s, border 0.3s;
-		-o-transition: padding 0.3s, border 0.3s;
 		transition: padding 0.3s, border 0.3s;
 
 		svg {
@@ -190,12 +161,7 @@
 
 	&__box-content {
 		width: 65%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-ms-flex-direction: column;
 		flex-direction: column;
 
 		@media screen and (max-width: $large-x) {
@@ -218,30 +184,18 @@
 
 	&__box-all-sliders {
 		width: 100%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 
 		@media screen and (max-width: $medium) {
-			-webkit-box-orient: vertical;
-			-webkit-box-direction: normal;
-			-ms-flex-direction: column;
 			flex-direction: column;
 		}
 	}
 
 	&__box-slider-large-n-btns {
 		width: 60%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
 		justify-content: space-between;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
 		align-items: center;
 		margin-right: 20px;
 
@@ -251,19 +205,10 @@
 
 		@media screen and (max-width: $medium) {
 			width: 100%;
-			-webkit-box-orient: vertical;
-			-webkit-box-direction: normal;
-			-ms-flex-direction: column;
 			flex-direction: column;
-			-webkit-box-pack: start;
-			-ms-flex-pack: start;
 			justify-content: start;
-			-webkit-box-align: end;
-			-ms-flex-align: end;
 			align-items: flex-end;
 			margin-right: 0;
-			-webkit-box-ordinal-group: 1;
-			-ms-flex-order: 0;
 			order: 0;
 		}
 	}
@@ -309,11 +254,7 @@
 
 	&__box-min-img {
 		width: 10%;
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-align: end;
-		-ms-flex-align: end;
 		align-items: flex-end;
 
 		@media screen and (max-width: $lg) {
@@ -323,8 +264,6 @@
 		@media screen and (max-width: $medium) {
 			width: 25%;
 			margin-top: 35px;
-			-webkit-box-ordinal-group: 3;
-			-ms-flex-order: 2;
 			order: 2;
 		}
 	}
@@ -350,9 +289,7 @@
 	&__person-min-img {
 		width: 100%;
 		height: auto;
-		-webkit-filter: grayscale(100);
 		filter: grayscale(100);
-		-webkit-box-shadow: 0px 16px 24px -24px #000000, 0px 24px 48px -24px rgba(0, 0, 0, 0.8);
 		box-shadow: 0px 16px 24px -24px #000000, 0px 24px 48px -24px rgba(0, 0, 0, 0.8);
 	}
 
@@ -368,8 +305,6 @@
 		@media screen and (max-width: $medium) {
 			width: 100%;
 			margin-top: 10px;
-			-webkit-box-ordinal-group: 2;
-			-ms-flex-order: 1;
 			order: 1;
 		}
 	}
@@ -410,8 +345,6 @@
 	}
 
 	&__person-social {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
 	}
 
@@ -431,8 +364,6 @@
 
 	&__box-card {
 		flex: 0 1 25%;
-
-		// transition: flex 0.6s;
 
 		@media screen and (max-width: $lg) {
 			flex: 0 1 50%;
@@ -456,7 +387,6 @@
 			}
 
 			.our-team__el-card-all-text {
-				// display: block;
 				opacity: 1;
 				overflow: visible;
 				transition: opacity 0.6s 0.6s;
@@ -503,7 +433,6 @@
 	}
 
 	&__el-card-all-text {
-		// display: none;
 		overflow: hidden;
 		opacity: 0;
 	}
@@ -514,12 +443,6 @@
 		p:not(:last-child) {
 			margin-bottom: 15px;
 		}
-
-		// @media screen and (max-width: $lg) {
-		// 	p:not(:first-child) {
-		// 		display: none;
-		// 	}
-		// }
 	}
 
 	&__el-card-person-position {
