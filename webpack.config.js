@@ -10,21 +10,23 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 
-
 	module: {
 		rules: [
 			{
 				test: /\.s[ac]ss$/i,
-				use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+				use: [MiniCssExtractPlugin.loader, 'css-loader', "postcss-loader", 'sass-loader'],
 			},
 
 			{
-				test: /\.(woff|woff2|eot|ttf|otf)$/i,
+				test: /\.(ttf|eot|woff|woff2|svg)$/,
 				type: 'asset/resource',
-
+				generator: {
+					filename: './fonts/[name][ext]',
+				},
 			},
 		],
 	},
+
 	plugins: [
 		new MiniCssExtractPlugin({
 			filename: "style.css",

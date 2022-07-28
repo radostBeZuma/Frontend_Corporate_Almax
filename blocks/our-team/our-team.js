@@ -226,7 +226,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				flag = false;
 				switchRegular();
 
-			}, 500);
+			}, 100);
 		}
 
 	});

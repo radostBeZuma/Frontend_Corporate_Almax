@@ -38,6 +38,19 @@
 	}
 }
 
+.top-block__head-text-wrap {
+	overflow: hidden;
+
+	&._active .top-block__head-text {
+		transform: translateX(0px);
+	}
+}
+
+.top-block__head-text {
+	transition: transform 0.6s;
+	transform: translateX(-1200px);
+}
+
 .top-block__desc-perf {
 	margin-top: 25px;
 	font-weight: 400;

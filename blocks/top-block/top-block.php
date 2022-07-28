@@ -1,6 +1,9 @@
 <section class="top-block mt45">
 	<div class="top-block__perfomance">
-		<h1 class="top-block__head-text">Adding Creativity to Your Triumph</h1>
+		<div class="top-block__head-text-wrap">
+			<h1 class="top-block__head-text">Adding Creativity to Your Triumph</h1>
+		</div>
+		
 		<p class="top-block__desc-perf">We`re a diverse group of designers, strategists, engineers and wordsmiths who make things people love to use. We help the world`s most progressive brands solve problems, seize opportunities and generate growth.</p>
 		<button class="top-block__perf-btn" type="button">
 			<span class="top-block__perf-btn-text">Get in touch</span>
