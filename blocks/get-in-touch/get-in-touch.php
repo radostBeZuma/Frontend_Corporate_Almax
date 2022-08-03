@@ -3,30 +3,52 @@
 	<div class="get-in-touch__container-cnt-form-n-team-n-boost">
 		<div class="get-in-touch__container-contact-form">
 			<p class="get-in-touch__form-title">Contact form</p>
-			<form class="get-in-touch__form-box">
-				<input class="get-in-touch__form-input" type="text" placeholder="your name">
-				<input class="get-in-touch__form-input" type="text" placeholder="email">
-				<textarea class="get-in-touch__form-textarea" placeholder="tell us about your project..."></textarea>
+			<form id="contact-form" class="get-in-touch__form-box">
+				<div class="get-in-touch__form-input-n-msg">
+					<input class="get-in-touch__form-input js-form-text" id="contact-name" type="text" name="name" placeholder="your name">
+					<p class="get-in-touch__form-msg get-in-touch__form-msg-name"></p>
+				</div>
+				<div class="get-in-touch__form-input-n-msg">
+					<input class="get-in-touch__form-input js-form-text" id="contact-email" type="text" name="email" placeholder="email">
+					<p class="get-in-touch__form-msg get-in-touch__form-msg-email"></p>
+				</div>
+				<div class="get-in-touch__form-input-n-msg">
+					<textarea class="get-in-touch__form-textarea js-form-text" id="contact-question" name="qustion" placeholder="tell us about your project..."></textarea>
+					<p class="get-in-touch__form-msg get-in-touch__form-msg-textarea"></p>
+				</div>
 				<div class="get-in-touch__form-upload">
 					<div class="get-in-touch__name-upload-file">upload any of your sketches and brief's that you think might be helpfull</div>
 					<div class="get-in-touch__container-upload">
-						<input class="get-in-touch__form-input-upload" type="file" id="upload-file">
-						<label class="get-in-touch__form-input-upload-btn" for="upload-file">Upload</label>
+						<input class="get-in-touch__form-input-upload js-form-file" id="contact-sketch" type="file" accept="image/*">
+						<label class="get-in-touch__form-input-upload-btn" for="contact-sketch">Upload</label>
 					</div>
 				</div>
-			</form>
-			<p class="get-in-touch__form-desc">
-				<a class="get-in-touch__form-download-link" href="#" download>download our easy to use brief</a>
-				that you can fill out and send back to us so that the communication process goes faster
-			</p>
-			<button class="get-in-touch__form-send-btn" type="button">
-				<span class="get-in-touch__form-send-btn-text">Send a message</span>
-				<div class="get-in-touch__form-send-btn-icon">
-					<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M2.51 21.6438L23.5 12.6438L2.51 3.6438L2.5 10.6438L17.5 12.6438L2.5 14.6438L2.51 21.6438Z" fill="white"/>
-					</svg>
+				<div class="get-in-touch__form-question-container">
+					<p class="get-in-touch__question-text">Are you an individual or a legal entity?</p>
+					<div class="get-in-touch__radio-container">
+						<div class="get-in-touch__radio-btn">
+							<input class="js-form-checkbox" id="radioPhys" type="radio" name="answer" value="Physical person">
+							<label class="get-in-touch__label" for="radioPhys">Physical person</label>
+						</div>
+						<div class="get-in-touch__radio-btn">
+							<input class="js-form-checkbox" id="radioLeg" type="radio" name="answer" value="Legal person">
+							<label class="get-in-touch__label" for="radioLeg">Legal person</label>
+						</div>
+					</div>
 				</div>
-			</button>
+				<p class="get-in-touch__form-desc">
+					<a class="get-in-touch__form-download-link" href="#" download>download our easy to use brief</a>
+					that you can fill out and send back to us so that the communication process goes faster
+				</p>
+				<button class="get-in-touch__form-send-btn" type="submit">
+					<span class="get-in-touch__form-send-btn-text">Send a message</span>
+					<div class="get-in-touch__form-send-btn-icon">
+						<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M2.51 21.6438L23.5 12.6438L2.51 3.6438L2.5 10.6438L17.5 12.6438L2.5 14.6438L2.51 21.6438Z" fill="white"/>
+						</svg>
+					</div>
+				</button>
+			</form>
 		</div>
 		<div class="get-in-touch__container-team-n-boost">
 			<div class="get-in-touch__container-team">

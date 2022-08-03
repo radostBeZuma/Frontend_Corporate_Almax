@@ -46,8 +46,14 @@
 	flex-direction: column;
 }
 
+.get-in-touch__form-input-n-msg {
+	position: relative;
+	padding-bottom: 35px;
+}
+
 .get-in-touch__form-input {
-	margin-bottom: 25px;
+	width: 100%;
+	box-sizing: border-box;
 	padding: 15px;
 	border-bottom: 2px solid $palette-black-primary;
 	font-weight: 400;
@@ -66,10 +72,23 @@
 	&:focus {
 		border-color: $palette-blue-primary;
 	}
+
+	&._input-mistake {
+		border-color: $palette-red-primary;
+	}
+}
+
+.get-in-touch__form-msg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 15px;
+	color: $palette-red-primary;
 }
 
 .get-in-touch__form-textarea {
-	margin-bottom: 25px;
+	width: 100%;
+	box-sizing: border-box;
 	resize: none;
 	height: 150px;
 	padding: 15px;
@@ -85,6 +104,10 @@
 
 	&:focus {
 		border-color: $palette-blue-primary;
+	}
+
+	&._input-mistake {
+		border-color: $palette-red-primary;
 	}
 }
 
@@ -131,6 +154,30 @@
 		color: $palette-black-primary;
 		background-color: $palette-white-primary;
 	}
+}
+
+.get-in-touch__form-question-container {
+	margin-bottom: 25px;
+	padding: 0 15px;
+}
+
+.get-in-touch__radio-container {
+	margin-top: 25px;
+}
+
+.get-in-touch__question-text {
+	color: $palette-gray-primary;
+}
+
+.get-in-touch__radio-btn {
+	&:not(:last-child) {
+		margin-bottom: 15px;
+	}
+}
+
+.get-in-touch__label {
+	margin-left: 10px;
+	color: $palette-gray-primary;
 }
 
 .get-in-touch__form-desc {

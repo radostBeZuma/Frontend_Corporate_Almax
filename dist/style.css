@@ -462,8 +462,15 @@ li {
           flex-direction: column;
 }
 
+.get-in-touch__form-input-n-msg {
+  position: relative;
+  padding-bottom: 35px;
+}
+
 .get-in-touch__form-input {
-  margin-bottom: 25px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 15px;
   border-bottom: 2px solid #111111;
   font-weight: 400;
@@ -494,9 +501,22 @@ li {
 .get-in-touch__form-input:focus {
   border-color: #2F80ED;
 }
+.get-in-touch__form-input._input-mistake {
+  border-color: #D81717;
+}
+
+.get-in-touch__form-msg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 15px;
+  color: #D81717;
+}
 
 .get-in-touch__form-textarea {
-  margin-bottom: 25px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   resize: none;
   height: 150px;
   padding: 15px;
@@ -513,6 +533,9 @@ li {
 }
 .get-in-touch__form-textarea:focus {
   border-color: #2F80ED;
+}
+.get-in-touch__form-textarea._input-mistake {
+  border-color: #D81717;
 }
 
 .get-in-touch__form-upload {
@@ -573,6 +596,28 @@ li {
 .get-in-touch__form-input-upload-btn:hover {
   color: #111111;
   background-color: #FFFFFF;
+}
+
+.get-in-touch__form-question-container {
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
+
+.get-in-touch__radio-container {
+  margin-top: 25px;
+}
+
+.get-in-touch__question-text {
+  color: #828282;
+}
+
+.get-in-touch__radio-btn:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.get-in-touch__label {
+  margin-left: 10px;
+  color: #828282;
 }
 
 .get-in-touch__form-desc {
