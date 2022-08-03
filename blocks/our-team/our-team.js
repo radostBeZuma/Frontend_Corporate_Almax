@@ -267,7 +267,6 @@ window.onload = () => {
 		} else {
 
 			const hS = mainBox.clientHeight;
-			console.log(hS);
 			box.style.height = hS + 'px';
 
 		}
