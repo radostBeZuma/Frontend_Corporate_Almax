@@ -1,7 +1,7 @@
 {
-	"name": "webpack-1.v",
+	"name": "Frontend_Corporate_Almax",
 	"version": "1.0.0",
-	"description": "pervay popitka ystanovki",
+	"description": "Corporate website for Almax company.",
 	"main": "index.js",
 	"scripts": {
 		"built": "webpack",
