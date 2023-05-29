@@ -5,8 +5,3 @@ function requireAll(r) {
 }
 
 requireAll(require.context('./blocks', true, /^\.\/[^/]+\/[^/.]+\.(js|css|scss|sass|less)$/));
-
-
-
-
-
