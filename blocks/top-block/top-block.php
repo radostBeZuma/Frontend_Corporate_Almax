@@ -15,21 +15,21 @@
 	<div class="top-block__recent">
 		<h4 class="top-block__sub-recent-text">Recent Work</h4>
 		<div class="top-block__line-work">
-			<img class="top-block__img-work" src="./../../img/work.png" alt="website layout" width="80px" height="80px">
+			<img class="top-block__img-work" src="../../assets/img/work.png" alt="website layout" width="80px" height="80px">
 			<div class="top-block__container-work-head-text-n-desc">
 				<div class="top-block__box-work-head-text">Luxylist</div>
 				<p class="top-block__box-work-desc">Website — Fans & Followers Wishlist Platform</p>
 			</div>
 		</div>
 		<div class="top-block__line-work">
-		<img class="top-block__img-work" src="./../../img/work.png" alt="website layout" width="80px" height="80px">
+		<img class="top-block__img-work" src="../../assets/img/work.png" alt="website layout" width="80px" height="80px">
 			<div class="top-block__container-work-head-text-n-desc">
 				<div class="top-block__box-work-head-text">Luxylist</div>
 				<p class="top-block__box-work-desc">Website — Fans & Followers Wishlist Platform</p>
 			</div>
 		</div>
 		<div class="top-block__line-work">
-		<img class="top-block__img-work" src="./../../img/work.png" alt="website layout" width="80px" height="80px">
+		<img class="top-block__img-work" src="../../assets/img/work.png" alt="website layout" width="80px" height="80px">
 			<div class="top-block__container-work-head-text-n-desc">
 				<div class="top-block__box-work-head-text">Luxylist</div>
 				<p class="top-block__box-work-desc">Website — Fans & Followers Wishlist Platform</p>
@@ -38,7 +38,7 @@
 	</div>
 	<div class="top-block__container-img-n-text">
 		<div class="top-block__img-block">
-			<img class="top-block__img-a" src="./../../img/block.jpg" alt="Dev photo">
+			<img class="top-block__img-a" src="../../assets/img/block.jpg" alt="Dev photo">
 		</div>
 		<div class="top-block__about">
 			<h4 class="top-block__about-head-text">About our work</h4>

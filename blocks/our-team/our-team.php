@@ -37,13 +37,13 @@
 						<div class="our-team__box-slider-large">
 							<div class="our-team__el-slider-l-wrapper swiper-wrapper">
 								<div class="our-team__el-slider-l-slide swiper-slide">
-									<img class="our-team__person-l-img" src="./../../img/max-d-large.jpg" alt="Max D. Chief Executive Officer">
+									<img class="our-team__person-l-img" src="../../assets/img/max-d-large.jpg" alt="Max D. Chief Executive Officer">
 								</div>
 								<div class="our-team__el-slider-l-slide swiper-slide">
-									<img class="our-team__person-l-img" src="./../../img/alex-k-large.jpg" alt="Alex K. Lorem ipsum pos.">
+									<img class="our-team__person-l-img" src="../../assets/img/alex-k-large.jpg" alt="Alex K. Lorem ipsum pos.">
 								</div>
 								<div class="our-team__el-slider-l-slide swiper-slide">
-									<img class="our-team__person-l-img" src="./../../img/sasha-b-large.jpg" alt="Sasha B. Lorem pos.">
+									<img class="our-team__person-l-img" src="../../assets/img/sasha-b-large.jpg" alt="Sasha B. Lorem pos.">
 								</div>
 							</div>
 						</div>
@@ -58,15 +58,15 @@
 							<div class="our-team__el-slider-min-wrapper swiper-wrapper">
 								<div class="our-team__el-slider-min-slide swiper-slide">
 									<p class="our-team__person-desc-min">Alex K.</p>
-									<img class="our-team__person-min-img" src="./../../img/alex-k-min.jpg" alt="Alex K. Lorem ipsum pos.">
+									<img class="our-team__person-min-img" src="../../assets/img/alex-k-min.jpg" alt="Alex K. Lorem ipsum pos.">
 								</div>
 								<div class="our-team__el-slider-min-slide swiper-slide">
 									<p class="our-team__person-desc-min">Sasha B.</p>
-									<img class="our-team__person-min-img" src="./../../img/sasha-b-min.jpg" alt="Sasha B. Lorem pos.">
+									<img class="our-team__person-min-img" src="../../assets/img/sasha-b-min.jpg" alt="Sasha B. Lorem pos.">
 								</div>
 								<div class="our-team__el-slider-min-slide swiper-slide">
 									<p class="our-team__person-desc-min">Max D.</p>
-									<img class="our-team__person-min-img" src="./../../img/max-d-min.jpg" alt="Max D. Chief Executive Officer">
+									<img class="our-team__person-min-img" src="../../assets/img/max-d-min.jpg" alt="Max D. Chief Executive Officer">
 								</div>
 							</div>
 						</div>
@@ -203,7 +203,7 @@
 						<div class="our-team__el-card-inner">
 							<div class="our-team__el-img-n-arrow">
 								<div class="our-team__box-card-person-img">
-									<img class="our-team__el-card-img" src="./../../img/max-d-large.jpg" alt="">
+									<img class="our-team__el-card-img" src="../../assets/img/max-d-large.jpg" alt="">
 								</div>
 								<button class="our-team__el-card-btn" type="button">
 									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -256,7 +256,7 @@
 						<div class="our-team__el-card-inner">
 							<div class="our-team__el-img-n-arrow">
 								<div class="our-team__box-card-person-img">
-									<img class="our-team__el-card-img" src="./../../img/alex-k-large.jpg" alt="">
+									<img class="our-team__el-card-img" src="../../assets/img/alex-k-large.jpg" alt="">
 								</div>
 								<button class="our-team__el-card-btn" type="button">
 									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -309,7 +309,7 @@
 						<div class="our-team__el-card-inner">
 							<div class="our-team__el-img-n-arrow">
 								<div class="our-team__box-card-person-img">
-									<img class="our-team__el-card-img" src="./../../img/sasha-b-large.jpg" alt="">
+									<img class="our-team__el-card-img" src="../../assets/img/sasha-b-large.jpg" alt="">
 								</div>
 								<button class="our-team__el-card-btn" type="button">
 									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

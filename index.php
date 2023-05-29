@@ -8,7 +8,7 @@
 
 	<title>ALMAX</title>
 
-	<link rel="icon" href="img/logo.svg" type="image/x-icon" />
+	<link rel="icon" href="assets/img/logo.svg" type="image/x-icon" />
 
 	<link rel="stylesheet" href="/dist/css/style.css">
 	<script src="/dist/js/bundle.js"></script>

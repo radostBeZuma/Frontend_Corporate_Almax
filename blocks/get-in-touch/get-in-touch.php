@@ -53,25 +53,25 @@
 		<div class="get-in-touch__container-team-n-boost">
 			<div class="get-in-touch__container-team">
 				<div class="get-in-touch__box-person">
-					<img class="get-in-touch__person-img" src="./../../img/person-max-d.png" alt="Person Max D.">
+					<img class="get-in-touch__person-img" src="../../assets/img/person-max-d.png" alt="Person Max D.">
 					<p class="get-in-touch__person-name">Max D.</p>
 					<a class="get-in-touch__person-email-link" href="mailto:js@almax.com">js@almax.com</a>
 					<p class="get-in-touch__person-special">Founder / CEO</p>
 				</div>
 				<div class="get-in-touch__box-person">
-					<img class="get-in-touch__person-img" src="./../../img/person-max-d.png" alt="Person Alex K.">
+					<img class="get-in-touch__person-img" src="../../assets/img/person-max-d.png" alt="Person Alex K.">
 					<p class="get-in-touch__person-name">Alex K.</p>
 					<a class="get-in-touch__person-email-link" href="mailto:as@almax.com">as@almax.com</a>
 					<p class="get-in-touch__person-special">Founder / CEO</p>
 				</div>
 				<div class="get-in-touch__box-person">
-					<img class="get-in-touch__person-img" src="./../../img/person-max-d.png" alt="Person Diana K.">
+					<img class="get-in-touch__person-img" src="../../assets/img/person-max-d.png" alt="Person Diana K.">
 					<p class="get-in-touch__person-name">Diana K.</p>
 					<a class="get-in-touch__person-email-link" href="mailto:as@almax.com">as@almax.com</a>
 					<p class="get-in-touch__person-special">Senior Manager</p>
 				</div>
 				<div class="get-in-touch__box-person">
-					<img class="get-in-touch__person-img" src="./../../img/person-max-d.png" alt="Person Anastasia O.">
+					<img class="get-in-touch__person-img" src="../../assets/img/person-max-d.png" alt="Person Anastasia O.">
 					<p class="get-in-touch__person-name">Anastasia O.</p>
 					<a class="get-in-touch__person-email-link" href="mailto:as@almax.com">as@almax.com</a>
 					<p class="get-in-touch__person-special">Senior Manager</p>

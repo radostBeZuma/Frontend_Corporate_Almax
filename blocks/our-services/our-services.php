@@ -40,28 +40,28 @@
 				</div>
 				<div class="our-services__container-promo-img-n-recent-work-n-btn">
 					<div class="our-services__wrap-promo-img">
-						<img class="our-services__promo-img" src="./../../img/promo.jpg" alt="Promo image">
+						<img class="our-services__promo-img" src="../../assets/img/promo.jpg" alt="Promo image">
 					</div>
 					<div class="our-services__box-recent-work-n-btn">
 						<div class="our-services__box-recent-work">
 							<h4 class="our-services__recent-head-text">Recent Work</h4>
 							<div class="our-services__box-all-works">
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Vibecoin</h4>
 										<p class="our-services__desc-work">Blockchain-Enabled Commerce App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Arrivals</h4>
 										<p class="our-services__desc-work">Taxi Mobile App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Zentacle</h4>
 										<p class="our-services__desc-work">Scuba Diving Log Mobile App</p>
@@ -86,28 +86,28 @@
 				</div>
 				<div class="our-services__container-promo-img-n-recent-work-n-btn">
 					<div class="our-services__wrap-promo-img">
-						<img class="our-services__promo-img" src="./../../img/promo-web.jpg" alt="Promo web app">
+						<img class="our-services__promo-img" src="../../assets/img/promo-web.jpg" alt="Promo web app">
 					</div>
 					<div class="our-services__box-recent-work-n-btn">
 						<div class="our-services__box-recent-work">
 							<h4 class="our-services__recent-head-text">Recent Work</h4>
 							<div class="our-services__box-all-works">
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Zentacle</h4>
 										<p class="our-services__desc-work">Scuba Diving Log Mobile App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Vibecoin</h4>
 										<p class="our-services__desc-work">Blockchain-Enabled Commerce App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Arrivals</h4>
 										<p class="our-services__desc-work">Taxi Mobile App</p>
@@ -132,28 +132,28 @@
 				</div>
 				<div class="our-services__container-promo-img-n-recent-work-n-btn">
 					<div class="our-services__wrap-promo-img">
-						<img class="our-services__promo-img" src="./../../img/promo-web.jpg" alt="Promo web app">
+						<img class="our-services__promo-img" src="../../assets/img/promo-web.jpg" alt="Promo web app">
 					</div>
 					<div class="our-services__box-recent-work-n-btn">
 						<div class="our-services__box-recent-work">
 							<h4 class="our-services__recent-head-text">Recent Work</h4>
 							<div class="our-services__box-all-works">
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">The consciousness of our compatriots is not clouded by propaganda</h4>
 										<p class="our-services__desc-work">Scuba Diving Log Mobile App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Vibecoin</h4>
 										<p class="our-services__desc-work">Blockchain-Enabled Commerce App</p>
 									</div>
 								</div>
 								<div class="our-services__box-work">
-									<img class="our-services__img-work" src="./../../img/ex-work.jpg" alt="">
+									<img class="our-services__img-work" src="../../assets/img/ex-work.jpg" alt="">
 									<div class="our-services__text-work">
 										<h4 class="our-services__name-work">Arrivals</h4>
 										<p class="our-services__desc-work">Taxi Mobile App</p>

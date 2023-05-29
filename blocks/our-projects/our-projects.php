@@ -20,7 +20,7 @@
 						<a class="our-projects__link-proj" href="">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-seasons.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-seasons.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Zentacle — Scuba Diving Log Mobile App</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -33,7 +33,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-des.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-des.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Black American History Organisation Website</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -44,7 +44,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-everest.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-everest.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Arrivals — Taxi Mobile App</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -59,7 +59,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-chase-adventure.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-chase-adventure.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">LuxyList Website — Fans & Followers Wishlist Platform</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -70,7 +70,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-chase-adventure.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-chase-adventure.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Arrivals — Taxi Mobile App</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -83,7 +83,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-seasons.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-seasons.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Black American History Organisation Website</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -96,7 +96,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-chase-adventure.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-chase-adventure.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Black American History Organisation Website</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
@@ -107,7 +107,7 @@
 						<a class="our-projects__link-proj" href="#">
 							<div class="our-projects__box-card">
 								<div class="our-projects__box-pic">
-									<img class="our-projects__work-pic" src="./../../img/our-proj-chase-adventure.jpg" alt="">
+									<img class="our-projects__work-pic" src="../../assets/img/our-proj-chase-adventure.jpg" alt="">
 								</div>
 								<h4 class="our-projects__work-title">Arrivals — Taxi Mobile App</h4>
 								<div class="our-projects__work-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>

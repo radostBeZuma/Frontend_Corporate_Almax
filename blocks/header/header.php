@@ -3,9 +3,9 @@
 		<div class="header__container-logo">
 			<a class="header__box-logo-link" href="#">
 				<div class="header__box-logo-all">
-					<img class="header__logo-img" src="./../../img/logo.svg" alt="Logo">
-					<img class="header__logo-img" src="./../../img/ALMAX.svg" alt="Logo">
-					<img class="header__logo-img" src="./../../img/da.svg" alt="Logo">
+					<img class="header__logo-img" src="../../assets/img/logo.svg" alt="Logo">
+					<img class="header__logo-img" src="../../assets/img/ALMAX.svg" alt="Logo">
+					<img class="header__logo-img" src="../../assets/img/da.svg" alt="Logo">
 				</div>
 			</a>
 		</div>
