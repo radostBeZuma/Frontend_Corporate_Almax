@@ -10,8 +10,8 @@
 
 	<link rel="icon" href="img/logo.svg" type="image/x-icon" />
 
-	<link rel="stylesheet" href="/dist/style.css">
-	<script src="/dist/bundle.js"></script>
+	<link rel="stylesheet" href="/dist/css/style.css">
+	<script src="/dist/js/bundle.js"></script>
 </head>
 
 <body>

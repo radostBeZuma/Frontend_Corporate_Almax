@@ -1,4 +1,4 @@
-import '/styles/main.scss';
+import '/assets/scss/main.scss';
 
 function requireAll(r) {
 	r.keys().map(r);

@@ -7,16 +7,27 @@ module.exports = {
 
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'bundle.js'
+		filename: 'js/bundle.js'
 	},
 
 	module: {
 		rules: [
 			{
 				test: /\.s[ac]ss$/i,
-				use: [MiniCssExtractPlugin.loader, 'css-loader', "postcss-loader", 'sass-loader'],
+				use: [
+					MiniCssExtractPlugin.loader,
+					"css-loader",
+					"postcss-loader",
+					{
+						loader: "sass-loader",
+						options: {
+							sassOptions: {
+								includePaths: ["./assets/scss"],
+							},
+						},
+					},
+				],
 			},
-
 			{
 				test: /\.(ttf|eot|woff|woff2|svg)$/,
 				type: 'asset/resource',
@@ -29,7 +40,7 @@ module.exports = {
 
 	plugins: [
 		new MiniCssExtractPlugin({
-			filename: "style.css",
+			filename: "css/style.css",
 			linkType: "text/css",
 		}),
 	],
